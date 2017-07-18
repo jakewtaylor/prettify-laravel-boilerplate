@@ -1,0 +1,18 @@
+{
+  "name": "prettify-laravel-boilerplate",
+  "main": "./lib/prettify-laravel-boilerplate",
+  "version": "1.0.0",
+  "description": "Converts laravel boilerplate code into my desired style",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "prettify-laravel-boilerplate:prettify"
+  },
+  "repository": "https://github.com/pcfutures/prettify-laravel-boilerplate",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
