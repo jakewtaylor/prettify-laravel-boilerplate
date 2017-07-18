@@ -44,6 +44,6 @@ function index () {
 
 ## DocBlocks
 
-`/\n? *\/\*\*[^\/]*\//g` -> ``
+`/\n* *\/\*\*[\s\S]*?\*\//g` -> ``
 
 DocBlocks (any multiline comments starting with `/**`) get removed.
