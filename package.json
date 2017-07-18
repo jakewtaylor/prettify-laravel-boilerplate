@@ -1,7 +1,7 @@
 {
   "name": "prettify-laravel-boilerplate",
   "main": "./lib/prettify-laravel-boilerplate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Converts laravel boilerplate code into my desired style",
   "keywords": [],
   "activationCommands": {
