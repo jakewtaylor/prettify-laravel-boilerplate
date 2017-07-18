@@ -1,5 +1,39 @@
-# format-code package
+# prettify-laravel-boilerplate
 
-A short description of your package.
+Converts boilerplate Laravel files to my preferred styles:
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## Classes
+```PHP
+class User extends Authenticatable
+{
+	....
+}
+```
+
+becomes
+
+```PHP
+class User extends Authenticatable {
+	...
+}
+```
+
+## Functions
+```PHP
+function index()
+{
+	...
+}
+```
+
+becomes
+
+```PHP
+function index () {
+	...
+}
+```
+
+## DocBlocks
+
+DocBlocks (any multiline comments starting with `/**`) get removed.
