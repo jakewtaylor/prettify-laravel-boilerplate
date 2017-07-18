@@ -25,7 +25,7 @@ class User extends Authenticatable {
 
 ## Functions
 
-`/(?:function) +(\w+) +\(([\$\w\,\=\'\"\s]*)\)\s*\{/g` -> `function $1 ($2) {`
+`/(?:function) +(\w+) *\(([\$\w\,\=\'\"\s]*)\)\s*\{/g` -> `function $1 ($2) {`
 
 ```PHP
 function index()
