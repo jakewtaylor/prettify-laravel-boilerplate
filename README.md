@@ -6,7 +6,7 @@ Converts boilerplate Laravel files to my preferred styles:
 ```PHP
 class User extends Authenticatable
 {
-	....
+    ...
 }
 ```
 
@@ -14,7 +14,7 @@ becomes
 
 ```PHP
 class User extends Authenticatable {
-	...
+    ...
 }
 ```
 
@@ -22,7 +22,7 @@ class User extends Authenticatable {
 ```PHP
 function index()
 {
-	...
+    ...
 }
 ```
 
@@ -30,7 +30,7 @@ becomes
 
 ```PHP
 function index () {
-	...
+    ...
 }
 ```
 
